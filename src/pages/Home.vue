@@ -19,7 +19,7 @@ console.log("Fun called")
 },
 methods:{
   getData(){
-    this.$axios.get("http://djr.local/fast2/students").then(response =>{
+    this.$axios.get("http://djr.local/flask/students").then(response =>{
       this.Alldata=response.data
     })
     .catch(error => {
