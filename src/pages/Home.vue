@@ -19,7 +19,7 @@ console.log("Fun called")
 },
 methods:{
   getData(){
-    this.$axios.get(https://test-quant.vaneck.com/fast/students").then(response =>{
+    this.$axios.get("https://test-quant.vaneck.com/fast/students").then(response =>{
       this.Alldata=response.data
     })
     .catch(error => {
