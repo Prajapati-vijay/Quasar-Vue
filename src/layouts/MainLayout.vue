@@ -15,6 +15,14 @@
           Quasar App
         </q-toolbar-title>
 
+        <q-btn
+          flat
+          dense
+          label="Home"
+          icon="home"
+          to="/home"
+        />
+
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
