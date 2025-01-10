@@ -1,6 +1,6 @@
 <template>
 <div>
-  <h2>Test data from Fast API(Running with QCH)</h2>
+  <h2>Test data from Fast API(Running with Quant connect hub)</h2>
   {{ Alldata }}
   </div>
 </template>
